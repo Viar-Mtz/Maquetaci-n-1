@@ -1,4 +1,4 @@
-/*Fuentes*/
+    /*Fuentes*/
 @font-face{
     font-family: "nevis";
     src: url("../fonts/nevis.eot");
@@ -242,6 +242,7 @@ box-shadow: 0px 0px 2px gray;
     padding-right: 10px;
     font-size: 14px;
     border-bottom: 1px dashed #333333;
+    background-color: #0c73f2;
 }
 
 
