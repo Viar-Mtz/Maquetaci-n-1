@@ -11,8 +11,21 @@
 }
 
 @font-face{
-    font-family: "FjallaOne";
-    src: url("../fonts/FjallaOne-Regular.ttf") format(truetype);
+    font-family: "fajala";
+    src: url("../fonts/FjallaOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+     font-style: normal;
+
+}
+
+@font-face{
+    font-family: "icons";
+    src: url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular")  format("svg"),
+    url("../fonts/websymbols-regular-webfont.eot");
+    src: url("../fonts/websymbols-regular-webfont.eot?#iefix") format("embed"),
+    url("../fonts/websymbols-regular-webfont.woff") format("woff"),
+    url("../fonts/websymbols-regular-webfont.ttf") format("truetype");
+
     font-weight: normal;
      font-style: normal;
 
@@ -41,6 +54,14 @@ a:visited{
 a:hover{
     color: #285616;
 }
+
+.icon{
+    font-family: "icons";
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
 
 /*Formularios*/
 input[ type="text"],
@@ -106,6 +127,9 @@ button:active{
         color: #0c73f2 !important;
 
     }
+
+.orange{
+    color: #d69d2a !important;
 }
 
 /*Cabecera*/
@@ -333,13 +357,51 @@ box-shadow: 0px 0px 2px gray;
 #sections .titulo{
     font-size:25px;
     margin-bottom: 5px;
-    font-family: "FjallaOne" ;
+    font-family: "fajala";
     font-weight: normal;
     letter-spacing: 1px;
     text-align: center;
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
+    margin-top: 20px;
     
 }
 
+#sections section{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4 px #c9c9c9;
+    color: #333333;
+    font-size: 16px;
+    overflow: hidden;
+}
 
+#sections .article{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#sections .date{
+    color: gray;
+    font-size: 16px;
+}
+
+#sections .stickerone,
+#sections .stickertwo{
+position: absolute;
+margin-top: -38px;
+z-index: 0;
+}
+
+#sections .stickertwo{
+    margin-left: 860px;
+}
+
+#history{
+    display: flex;
+
+}
