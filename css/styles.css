@@ -9,6 +9,16 @@
      font-weight: normal;
      font-style: normal;
 }
+
+@font-face{
+    font-family: "FjallaOne";
+    src: url("../fonts/FjallaOne-Regular.ttf") format(truetype);
+    font-weight: normal;
+     font-style: normal;
+
+}
+
+    
 /*Estilos Generales*/
 *{
 padding: 0px;
@@ -216,7 +226,7 @@ box-shadow: 0px 0px 2px gray;
 
 /*Barra lateral*/
 #aside, #frase{
-    clear: both;
+    
     width: 200px;
     float: left;
     margin: 30px;
@@ -312,4 +322,24 @@ box-shadow: 0px 0px 2px gray;
 #mainContent{
     display: flex;
 }
+
+/*Secciones*/
+#sections{
+ width: 75%;
+ font-family: sans-serif;
+ margin-right: 20px;
+}
+
+#sections .titulo{
+    font-size:25px;
+    margin-bottom: 5px;
+    font-family: "FjallaOne" ;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
 
